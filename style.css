@@ -1,0 +1,136 @@
+
+html{
+    font-size: 100%;
+    overflow: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+
+
+.header {
+    background: rgb(249, 249, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+ }
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: rgb(228, 114, 114);
+     }
+
+ .header .navbar a:hover {
+        color: var(--main-color);
+        border-bottom: .1rem solid rgb(217, 114, 114);
+        padding-bottom: .5rem;
+        
+    
+     }
+    
+     .header .icons div{
+        color: #f16a6a;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-left: 2rem;
+    
+     }
+    
+     .header .icons div:hover{
+        color: green;
+    
+     }
+
+        
+
+     #menu-btn {
+        display: none;
+     }
+
+
+
+
+
+
+     @media (max-width:768px){
+ 
+      #menu-btn {
+        display: inline-block;
+        
+      }
+
+
+    
+        .header .navbar{
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            background: #fff;
+            width: 30rem;
+           
+            height:calc(100vh - 9.5rem) ;
+        }
+    
+        .header .navbar.active {
+            right: 0;
+            display: inline-block;
+            
+        }
+    
+        .header .navbar a{
+            color: rgb(222, 107, 107);
+            display: block;
+            margin: .5rem;
+            padding: .5rem;
+            font-size: 2rem;
+        }
+    
+        
+    
+         /* .home {
+            background-position: left;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .home .content h3 {
+            font-size: 4.5rem;
+    
+        }
+    
+        .home .content p {
+            font-size: 1.5rem;
+            
+        } */
+    } 
+    
+    @media (max-width:450px){
+        html{
+            font-size: 50%;
+    
+        }
+    
+        
+    }
