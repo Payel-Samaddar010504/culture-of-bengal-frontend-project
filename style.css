@@ -1,7 +1,16 @@
 
+*{
+    padding: 0;
+    /* background-color: rgb(241, 241, 231); */
+   
+   
+}
+
+
+
 html{
     font-size: 100%;
-    overflow: hidden;
+    overflow: auto;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     overflow: auto;
@@ -46,6 +55,7 @@ html{
         color: var(--main-color);
         border-bottom: .1rem solid rgb(217, 114, 114);
         padding-bottom: .5rem;
+        background: #f16a6a;
         
     
      }
@@ -69,8 +79,55 @@ html{
         display: none;
      }
 
+     .home {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(image1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top:6rem ;
+        padding-left: 2rem;
+    }
+     
+    
+     .home .content {
+        max-width: 60rem;
+        
+    }
+    
+    .home .content h3 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        color: rgb(17, 6, 63);;
+        font-weight: 600;
+    }
+    
+    .home .content p {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: #f5fcff;
 
+    }
 
+    .btn{
+        margin-top: 1rem;
+        display: inline-block;
+        padding: .5rem 3rem;
+        font-size: 1.7rem;
+        color: #fff;
+        background: var(--main-color);
+        cursor: pointer;
+         }
+        
+         .btn:hover {
+        letter-spacing: .1rem;
+        background: #1e1360;
+        border-radius: 50%;
+        
+         }
 
 
 
@@ -109,7 +166,7 @@ html{
     
         
     
-         /* .home {
+         .home {
             background-position: left;
             justify-content: center;
             text-align: center;
@@ -123,7 +180,7 @@ html{
         .home .content p {
             font-size: 1.5rem;
             
-        } */
+        } 
     } 
     
     @media (max-width:450px){
