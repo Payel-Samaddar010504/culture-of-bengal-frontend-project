@@ -167,13 +167,11 @@ html{
         
     
          .home {
-            background-position: right;
+            background-position: left;
             justify-content: center;
             text-align: center;
            
-            height: 100%;
-            width: 100%;
-           ;
+           
         }
     
         .home .content h3 {
@@ -185,7 +183,7 @@ html{
     
         .home .content p {
             font-size: 1.5rem;
-            color: #1e1360;
+           
             
         } 
     } 
