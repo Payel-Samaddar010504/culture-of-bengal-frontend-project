@@ -167,7 +167,7 @@ html{
         
     
          .home {
-            background-position: center;
+            background-position: right;
             justify-content: center;
             text-align: center;
            
@@ -179,13 +179,13 @@ html{
         .home .content h3 {
             font-size: 4.5rem;
             justify-content: center;
-         background-color: #f16a6a;
+       
     
         }
     
         .home .content p {
             font-size: 1.5rem;
-            color: rgb(250, 247, 162);
+            color: #1e1360;
             
         } 
     } 
